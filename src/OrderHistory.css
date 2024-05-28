@@ -1,0 +1,49 @@
+
+  .order-history {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .order-history th, .order-history td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+
+  .order-history thead {
+    background-color: #f2f2f2;
+  }
+
+  .order-history th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .order-history tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .order-history tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  .order-history button {
+    padding: 8px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .order-history button:hover {
+    background-color: #d32f2f;
+  }
+
+  .no-orders {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+  }
