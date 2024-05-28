@@ -12,7 +12,6 @@ const processOrder = (order) => {
     order.status = 'Pending';
   }
   orderHistory.push(order);
-  console.log("Updated order history:", orderHistory);
   socket.emit('orderHistory', orderHistory);
 };
 

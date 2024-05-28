@@ -31,7 +31,6 @@ const OrderHistory = ({ onCancelOrder }) => {
 
     return () => socket.disconnect();
   }, []);
-  console.log('===============',orders)
   return (
     <div>
       <h2>Order History</h2>
